@@ -25,7 +25,7 @@ it('Login Pass', async()=>{
         }
     );
     expect(actualText).to.equal(expectedText);
-    await browser.pause(3000)
+    await browser.pause(4000)
 
     
 
