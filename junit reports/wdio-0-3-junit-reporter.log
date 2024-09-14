@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="My Login application" timestamp="2024-09-14T12:34:55" time="8.044" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.127_0_6533_100.windows"/>
+      <property name="file" value="file:///C:/wdio%20project/wdio/test/specs/test.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.127_0_6533_100.windows.My_Login_application" name="should login with valid credentials" time="8.028">
+      <failure message="expect(...).toHaveTextContaining is not a function"/>
+      <system-out><![CDATA[
+COMMAND: GET /session/bd2fba75a080a279bc85705bd08e92e5/window - {}
+RESULT: {}
+COMMAND: GET /session/bd2fba75a080a279bc85705bd08e92e5/window - {}
+RESULT: {}
+COMMAND: POST /session/bd2fba75a080a279bc85705bd08e92e5/element/f.D3A00981A9EAE7DC3C972E28A3406278.d.A649C24E88F8081E14A7F5BE3467D788.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/bd2fba75a080a279bc85705bd08e92e5/element/f.D3A00981A9EAE7DC3C972E28A3406278.d.A649C24E88F8081E14A7F5BE3467D788.e.6/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/bd2fba75a080a279bc85705bd08e92e5/element/f.D3A00981A9EAE7DC3C972E28A3406278.d.A649C24E88F8081E14A7F5BE3467D788.e.8/clear - {}
+RESULT: {}
+COMMAND: POST /session/bd2fba75a080a279bc85705bd08e92e5/element/f.D3A00981A9EAE7DC3C972E28A3406278.d.A649C24E88F8081E14A7F5BE3467D788.e.8/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/bd2fba75a080a279bc85705bd08e92e5/element/f.D3A00981A9EAE7DC3C972E28A3406278.d.A649C24E88F8081E14A7F5BE3467D788.e.9/click - {}
+COMMAND: GET /session/bd2fba75a080a279bc85705bd08e92e5/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/bd2fba75a080a279bc85705bd08e92e5/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/bd2fba75a080a279bc85705bd08e92e5 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+TypeError: expect(...).toHaveTextContaining is not a function
+    at Context.<anonymous> (C:\wdio project\wdio\test\specs\test.e2e.js:11:45)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

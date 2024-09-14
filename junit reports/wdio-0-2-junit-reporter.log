@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2024-09-14T12:34:57" time="6.264" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.127_0_6533_100.windows"/>
+      <property name="file" value="file:///C:/wdio%20project/wdio/test/specs/login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.127_0_6533_100.windows.Demo_Tests" name="Login Test" time="6.261">
+      <system-out><![CDATA[
+COMMAND: GET /session/9c56e5435d7adba0ef63526a8b696f80/window - {}
+COMMAND: GET /session/9c56e5435d7adba0ef63526a8b696f80/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/9c56e5435d7adba0ef63526a8b696f80/window - {}
+RESULT: {}
+COMMAND: POST /session/9c56e5435d7adba0ef63526a8b696f80/elements - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/9c56e5435d7adba0ef63526a8b696f80/element/f.D0121D577728032C62CACB1DD1EC95B3.d.E3084058A0A86F682DBE50E958A5F834.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/9c56e5435d7adba0ef63526a8b696f80/element/f.D0121D577728032C62CACB1DD1EC95B3.d.E3084058A0A86F682DBE50E958A5F834.e.5/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/9c56e5435d7adba0ef63526a8b696f80/element/f.D0121D577728032C62CACB1DD1EC95B3.d.E3084058A0A86F682DBE50E958A5F834.e.7/clear - {}
+RESULT: {}
+COMMAND: POST /session/9c56e5435d7adba0ef63526a8b696f80/element/f.D0121D577728032C62CACB1DD1EC95B3.d.E3084058A0A86F682DBE50E958A5F834.e.7/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/9c56e5435d7adba0ef63526a8b696f80/element/f.D0121D577728032C62CACB1DD1EC95B3.d.E3084058A0A86F682DBE50E958A5F834.e.8/click - {}
+COMMAND: GET /session/9c56e5435d7adba0ef63526a8b696f80/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/9c56e5435d7adba0ef63526a8b696f80/element/f.D0121D577728032C62CACB1DD1EC95B3.d.72F51009DFF55055A551EA58199A9BF9.e.19/text - {}
+RESULT: {}
+COMMAND: DELETE /session/9c56e5435d7adba0ef63526a8b696f80 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Login Test" timestamp="2024-09-14T14:42:00" time="10.939" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Login_Test"/>
+      <property name="capabilities" value="chrome.127_0_6533_100.windows"/>
+      <property name="file" value="file:///C:/wdio%20project/wdio/test/specs/firstTest.js"/>
+    </properties>
+    <testcase classname="chrome.127_0_6533_100.windows.Login_Test" name="Login Pass" time="10.936">
+      <system-out><![CDATA[
+COMMAND: GET /session/a41e04e6e8658234f088e173ebaa5afa/window - {}
+RESULT: {}
+COMMAND: GET /session/a41e04e6e8658234f088e173ebaa5afa/window - {}
+RESULT: {}
+COMMAND: POST /session/a41e04e6e8658234f088e173ebaa5afa/element/f.FE1234BCBBF80F533F1E6F03A7975BCD.d.F2342AF6413C6A73FF9DBCC63E27FBD0.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/a41e04e6e8658234f088e173ebaa5afa/element/f.FE1234BCBBF80F533F1E6F03A7975BCD.d.F2342AF6413C6A73FF9DBCC63E27FBD0.e.5/value - {"text":"student"}
+RESULT: {"text":"student"}
+COMMAND: POST /session/a41e04e6e8658234f088e173ebaa5afa/element/f.FE1234BCBBF80F533F1E6F03A7975BCD.d.F2342AF6413C6A73FF9DBCC63E27FBD0.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/a41e04e6e8658234f088e173ebaa5afa/element/f.FE1234BCBBF80F533F1E6F03A7975BCD.d.F2342AF6413C6A73FF9DBCC63E27FBD0.e.6/value - {"text":"Password123"}
+RESULT: {"text":"Password123"}
+COMMAND: POST /session/a41e04e6e8658234f088e173ebaa5afa/element/f.FE1234BCBBF80F533F1E6F03A7975BCD.d.F2342AF6413C6A73FF9DBCC63E27FBD0.e.29/click - {}
+COMMAND: GET /session/a41e04e6e8658234f088e173ebaa5afa/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/a41e04e6e8658234f088e173ebaa5afa/element/f.FE1234BCBBF80F533F1E6F03A7975BCD.d.F46A69A9E936CE56B99B6007E1ACAFDA.e.35/text - {}
+RESULT: {}
+COMMAND: GET /session/a41e04e6e8658234f088e173ebaa5afa/element/f.FE1234BCBBF80F533F1E6F03A7975BCD.d.F46A69A9E936CE56B99B6007E1ACAFDA.e.35/text - {}
+RESULT: {}
+COMMAND: DELETE /session/a41e04e6e8658234f088e173ebaa5afa - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

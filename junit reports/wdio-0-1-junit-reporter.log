@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Login Test" timestamp="2024-09-14T12:34:57" time="14.165" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Login_Test"/>
+      <property name="capabilities" value="chrome.127_0_6533_100.windows"/>
+      <property name="file" value="file:///C:/wdio%20project/wdio/test/specs/firstTest.js"/>
+    </properties>
+    <testcase classname="chrome.127_0_6533_100.windows.Login_Test" name="Login Pass" time="14.163">
+      <system-out><![CDATA[
+COMMAND: GET /session/caef6c6eb6b5d2f7909d82880eb2713d/window - {}
+RESULT: {}
+COMMAND: GET /session/caef6c6eb6b5d2f7909d82880eb2713d/window - {}
+RESULT: {}
+COMMAND: POST /session/caef6c6eb6b5d2f7909d82880eb2713d/element/f.3479A5599BFBF018D2CAE5BDEB1BB80B.d.A6723FB54420495E473F891C6F24A697.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/caef6c6eb6b5d2f7909d82880eb2713d/element/f.3479A5599BFBF018D2CAE5BDEB1BB80B.d.A6723FB54420495E473F891C6F24A697.e.5/value - {"text":"student"}
+RESULT: {"text":"student"}
+COMMAND: POST /session/caef6c6eb6b5d2f7909d82880eb2713d/element/f.3479A5599BFBF018D2CAE5BDEB1BB80B.d.A6723FB54420495E473F891C6F24A697.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/caef6c6eb6b5d2f7909d82880eb2713d/element/f.3479A5599BFBF018D2CAE5BDEB1BB80B.d.A6723FB54420495E473F891C6F24A697.e.6/value - {"text":"Password123"}
+RESULT: {"text":"Password123"}
+COMMAND: POST /session/caef6c6eb6b5d2f7909d82880eb2713d/element/f.3479A5599BFBF018D2CAE5BDEB1BB80B.d.A6723FB54420495E473F891C6F24A697.e.31/click - {}
+COMMAND: GET /session/caef6c6eb6b5d2f7909d82880eb2713d/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/caef6c6eb6b5d2f7909d82880eb2713d/element/f.3479A5599BFBF018D2CAE5BDEB1BB80B.d.9ACDE6069187394817F2201220B44709.e.38/text - {}
+RESULT: {}
+COMMAND: DELETE /session/caef6c6eb6b5d2f7909d82880eb2713d - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

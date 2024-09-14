@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="First test" timestamp="2024-09-14T12:34:57" time="8.214" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="First test"/>
+      <property name="capabilities" value="chrome.127_0_6533_100.windows"/>
+      <property name="file" value="file:///C:/wdio%20project/wdio/test/specs/Main.spec.js"/>
+    </properties>
+    <testcase classname="chrome.127_0_6533_100.windows.First_test" name="my first login test" time="8.207">
+      <system-out><![CDATA[
+COMMAND: GET /session/39be79ba6c36a1526e1159810a29080e/window - {}
+RESULT: {}
+COMMAND: GET /session/39be79ba6c36a1526e1159810a29080e/window - {}
+RESULT: {}
+COMMAND: GET /session/39be79ba6c36a1526e1159810a29080e/window - {}
+RESULT: {}
+COMMAND: POST /session/39be79ba6c36a1526e1159810a29080e/element/f.B11830612E8C2B206C3395C0A487A550.d.7D4CE462E8F3E968C99856EFF3D8632E.e.2/clear - {}
+RESULT: {}
+COMMAND: POST /session/39be79ba6c36a1526e1159810a29080e/element/f.B11830612E8C2B206C3395C0A487A550.d.7D4CE462E8F3E968C99856EFF3D8632E.e.2/value - {"text":"iphone 11"}
+RESULT: {"text":"iphone 11"}
+COMMAND: POST /session/39be79ba6c36a1526e1159810a29080e/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: GET /session/39be79ba6c36a1526e1159810a29080e/window - {}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {}
+COMMAND: GET /session/39be79ba6c36a1526e1159810a29080e/window - {}
+RESULT: {}
+COMMAND: DELETE /session/39be79ba6c36a1526e1159810a29080e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
